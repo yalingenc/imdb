@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="imdb Test Suite">
+    <test name="The Circus">
+        <parameter name="filmName" value="The Circus"></parameter>
+        <classes>
+            <class name="testCases.HomePageTest"></class>
+            <class name="testCases.OscarsTest"></class>
+            <class name="testCases.FilmPageTest"></class>
+        </classes>
+    </test>
+    <test name="The Jazz Singer">
+        <parameter name="filmName" value="The Jazz Singer"></parameter>
+        <classes>
+            <class name="testCases.HomePageTest"></class>
+            <class name="testCases.OscarsTest"></class>
+            <class name="testCases.FilmPageTest"></class>
+        </classes>
+
+    </test>
+</suite>
